@@ -57,16 +57,13 @@ a word, phrase, or sequence that reads the same backwards as forwards, e.g. mada
                 print(f"Added numbers and got {answer}")
                 sleep(1)
                 palindrome(answer)
+                tries += 1
 
                 if palindrome(answer):
 
                     print(f"Number {number} becomes a palindrome after {tries} tries.")
                     sleep(10)
                     break
-
-                else:
-
-                    tries += 1
 
     else:
 
