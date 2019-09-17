@@ -14,12 +14,12 @@ def palindrome(num):
 def main():
 
     global answer
-    print("Panindrome Generator by KingWaffleIII AKA The Framewerk")
+    print("Panindrome Generator by KingWaffleIII.")
     sleep(1)
     print('''Palindrome Definition:
 noun (palɪndrəʊm)
 a word, phrase, or sequence that reads the same backwards as forwards, e.g. madam or nurses run.''')
-    number = input("Please input a number with spaces after each number: ")
+    number = input("Please input a number: ")
     tries = 0
 
     if number.isdigit():
