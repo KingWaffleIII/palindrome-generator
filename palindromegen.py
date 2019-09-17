@@ -29,7 +29,6 @@ a word, phrase, or sequence that reads the same backwards as forwards, e.g. mada
         number2 = reverseme(number)
         # origin = [int(number), int(number2)]
         # print(f"Got number: {origin.index(0)} and reversed: {origin.index(1)}")
-        print(f"[{number}, {number2}]")
         sleep(1)
 
         while number > str(0):
